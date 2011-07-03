@@ -1,0 +1,392 @@
+/*
+  RubyTree Site Style Sheet.
+  Copyright (C) 2007, 2008, 2009, 2010 Anupam Sengupta
+  All rights reserved.
+
+http://rubytree.rubyforge.org/
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Molengo);
+
+/* @group Banner Related */
+
+#banner {
+	padding: 0px;
+}
+
+DIV#banner {
+	height: 90px;
+}
+
+#banner img {
+	border: none;
+}
+
+#bannerLeft {
+	float: left;
+}
+
+#bannerLeftText {
+	color: gray;
+	font: 20px "Droid Sans", "Lucida Grande", Lucida, Verdana, sans-serif;
+	text-transform: capitalize;
+	margin-top: 10px;
+	position: relative;
+	overflow: hidden;
+	text-align: left;
+	border-left-style: solid;
+	padding-left: .8em;
+}
+
+#bannerLeftimg {
+	margin: 0px;
+	padding: 4px 10px 6px 4px;
+}
+
+#bannerRight {
+	width: 200px;
+	float: right;
+	border: none;
+	background-color: #eee;
+	margin-top: 14px;
+	margin-right: 10px;
+	position: relative;
+}
+
+#bannerRightText p {
+	font: 14px "Droid Sans", "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: gray;
+	margin: 10px;
+	text-align: center;
+}
+
+/*
+
+@end */
+
+/* @group Clear Spacers */
+
+div.clear {
+	clear: both;
+	visibility: hidden;
+}
+
+div.clear hr {
+	display: none;
+}
+
+/* @end */
+
+/* @group Left/Right Alignment */
+
+.xleft {
+	float: left;
+}
+
+.xright {
+	float: right;
+}
+
+.xright a:link,.xright a:visited,.xright a:active {
+	color: #666;
+}
+
+.xright a:hover {
+	color: #003300;
+}
+
+/* @end */
+
+/* @group General Formatting */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #fff;
+	font-family: 'Molengo', 'Lucida Grande', Arial, Helvetica, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: repeat-y;
+	font-size: 14px;
+	padding: 0px;
+}
+
+body ul {
+	list-style-type: square;
+}
+
+body li {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#bodyColumn p {
+	line-height: 1.3em;
+	text-align: justify;
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+
+em {
+	text-decoration: none;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.news {
+	font-size: x-small;
+}
+
+h2 {
+	font-size: 20px;
+	color: #333333;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+h3 {
+	padding: 4px 4px 4px 24px;
+	color: #333333;
+	background-color: #efefef;
+	border-bottom: 1px solid #ccc;
+	font-size: 14px;
+	background-image: url(./images/h3.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	font-variant: small-caps;
+}
+
+h4 {
+	border-bottom: 1px solid #aaaaaa;
+	color: #49635a;
+}
+
+code {
+	color: #0f0;
+	background-color: black;
+	font: medium "Courier New", Courier, mono;
+	margin: 10px;
+	padding: 3px;
+	display: block;
+	float: none;
+	clear: none;
+	position: relative;
+	overflow: auto;
+	width: 40em;
+}
+
+.strike {
+	text-decoration: line-through;
+	display: inline;
+}
+
+/* @end */
+
+/* @group Content Sections */
+
+#leftColumn {
+	width: 170px;
+	float: left;
+	overflow: auto;
+	margin: 10px 0 10px 0;
+	border-top-color: #ccc;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-right-color: #ccc;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-bottom-color: #ccc;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: #F8F8F8;
+}
+
+#bodyColumn {
+	margin-right: 1.5em;
+	margin-left: 197px;
+}
+
+.section {
+	padding: 4px;
+}
+
+.news_section {
+	padding: 6px;
+	background-color: #faf5f6;
+	margin: 2px;
+	display: block;
+	border: 1px dotted #c9beb3;
+}
+
+#footer {
+	padding: 3px 10px 3px 10px;
+	font-size: x-small;
+	padding: 10px;
+	margin: 10px 0px;
+	border-top: solid #ccc 1px;
+	color: #333333;
+	vertical-align: middle;
+}
+
+/* @end */
+
+/* @group Navigation Bar */
+
+#navcolumn {
+	padding: 8px 4px 0 8px;
+	background-color: #F8F8F8;
+}
+
+#navcolumn h5 {
+	font-size: smaller;
+	border-bottom: 1px solid #aaaaaa;
+	margin: 0;
+	padding: 2px 0 0 9px;
+	color: #49635a;
+	background-image: url(./images/h5.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+#navcolumn ul a {
+	color: #333333;
+}
+
+#navcolumn ul a:hover {
+	color: #ff533c;
+}
+
+#navcolumn ul {
+	margin: 5px 0 15px -0em;
+	padding: 0;
+	font-size: small;
+}
+
+#navcolumn li {
+	list-style-type: none;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: 0 0.4em;
+	padding-left: 16px;
+	list-style-position: outside;
+	line-height: 1.2em;
+	font-size: smaller;
+}
+
+#navcolumn li.expanded {
+	background-image: url(./images/expanded.gif);
+}
+
+#navcolumn li.collapsed {
+	background-image: url(./images/collapsed.gif);
+}
+
+#navcolumn img {
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+
+.navSection {
+	margin-bottom: 2px;
+	padding: 8px;
+}
+
+.navSectionHead {
+	font-weight: bold;
+	font-size: x-small;
+}
+
+/*
+
+@end */
+
+/* @group Links */
+
+#breadcrumbs {
+	font-size: x-small;
+	margin: 0pt;
+	height: 13px;
+	background-image: url(./images/breadcrumbs.jpg);
+	padding: 5px 10px 14px 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #47a;
+}
+
+a:visited {
+	color: #386591;
+}
+
+a:active, a:hover {
+	color: #ff533c;
+}
+
+.section p a:hover {
+	text-decoration: underline;
+}
+
+a.externalLink, a.externalLink:link, a.externalLink:visited, a.externalLink:active, a.externalLink:hover {
+
+
+}
+
+/* @end */
+
+/* @group Download Box */
+
+#downloadbox {
+	width: 170px;
+	float: right;
+	margin: 0 1em 2em 2em;
+	padding: 1em;
+	border: 1px solid #999;
+	background-color: #eee;
+}
+
+#downloadbox h5 {
+	margin: 0;
+	border-bottom: 1px solid #aaaaaa;
+	font-size: smaller;
+	padding: 0;
+}
+
+#downloadbox p {
+	margin-top: 0.4em;
+	margin-bottom: 0;
+}
+
+#downloadbox p a {
+	color: #47a;
+	font-weight: inherit;
+}
+
+#downloadbox ul {
+	margin-top: 0.4em;
+	margin-left: 0;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style-type: none;
+}
+
+#downloadbox li {
+	font-size: 0.85em;
+	padding-bottom: 0.15em;
+}
+
+#downloadbox li p {
+	font-size: 0.95em;
+	padding: 0.15em;
+	border: 1px solid #999;
+	background-color: #ccc;
+	font-weight: bold;
+	margin: 5px;
+}
+
+/* @end */

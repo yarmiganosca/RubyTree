@@ -8,3 +8,6 @@ AddOutputFilterByType DEFLATE application/xhtml+xml
 AddOutputFilterByType DEFLATE application/rss+xml
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
+
+# Enable Expiry
+ExpiresDefault "access plus 30 days"

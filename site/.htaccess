@@ -11,3 +11,10 @@ AddOutputFilterByType DEFLATE application/x-javascript
 
 # Enable Expiry
 ExpiresDefault "access plus 30 days"
+
+<ifModule mod_headers.c>
+	# Enable Cache-control for images.
+	<filesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+	Header set Cache-Control "max-age=2592000, public"
+	</filesMatch>
+</ifModule>

@@ -1,29 +1,17 @@
-/*
-  RubyTree Site Style Sheet.
-  Copyright (C) 2007, 2008, 2009, 2010 Anupam Sengupta
-  All rights reserved.
-
-http://rubytree.rubyforge.org/
-*/
-
 @import url(http://fonts.googleapis.com/css?family=Molengo);
-
-/* @group Banner Related */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
 
 #banner {
-	padding: 0px;
+	padding: 0;
 }
 
 DIV#banner {
-	height: 90px;
+	height: 65px;
 }
 
 #banner img {
 	border: none;
-}
-
-#bannerLeft {
-	float: left;
+	top: 6px;
 }
 
 #bannerLeftText {
@@ -39,7 +27,7 @@ DIV#banner {
 }
 
 #bannerLeftimg {
-	margin: 0px;
+	margin: 0;
 	padding: 4px 10px 6px 4px;
 }
 
@@ -54,17 +42,11 @@ DIV#banner {
 }
 
 #bannerRightText p {
-	font: 14px "Droid Sans", "Lucida Grande", Lucida, Verdana, sans-serif;
+	font: 1.2em "Droid Sans", "Lucida Grande", Lucida, Verdana, sans-serif;
 	color: gray;
-	margin: 10px;
 	text-align: center;
+	margin: 10px;
 }
-
-/*
-
-@end */
-
-/* @group Clear Spacers */
 
 div.clear {
 	clear: both;
@@ -73,14 +55,6 @@ div.clear {
 
 div.clear hr {
 	display: none;
-}
-
-/* @end */
-
-/* @group Left/Right Alignment */
-
-.xleft {
-	float: left;
 }
 
 .xright {
@@ -92,23 +66,16 @@ div.clear hr {
 }
 
 .xright a:hover {
-	color: #003300;
+	color: #030;
 }
 
-/* @end */
-
-/* @group General Formatting */
-
 body {
-	margin: 0px;
-	padding: 0px;
 	background-color: #fff;
-	font-family: 'Molengo', 'Lucida Grande', Arial, Helvetica, sans-serif;
-	margin-left: auto;
-	margin-right: auto;
+	font-family: Molengo, 'Lucida Grande', Arial, Helvetica, sans-serif;
 	background-repeat: repeat-y;
 	font-size: 14px;
-	padding: 0px;
+	margin: 0 auto;
+	padding: 0;
 }
 
 body ul {
@@ -124,12 +91,12 @@ body li {
 	line-height: 1.3em;
 	text-align: justify;
 	padding-left: 20px;
-	font-size: 1.2em;
+	font-size: 1.0em;
 }
 
 em {
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: 700;
 	font-style: italic;
 }
 
@@ -138,15 +105,14 @@ em {
 }
 
 h2 {
-	font-size: 20px;
-	color: #333333;
+	font-size: 1.2em;
+	color: #333;
 	margin-top: 6px;
 	margin-bottom: 6px;
 }
 
 h3 {
-	padding: 4px 4px 4px 24px;
-	color: #333333;
+	color: #333;
 	background-color: #efefef;
 	border-bottom: 1px solid #ccc;
 	font-size: 14px;
@@ -154,25 +120,39 @@ h3 {
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	font-variant: small-caps;
+	padding: 4px 4px 4px 24px;
 }
 
 h4 {
-	border-bottom: 1px solid #aaaaaa;
+	border-bottom: 1px solid #aaa;
 	color: #49635a;
 }
 
 code {
+	font-family: 'Ubuntu Mono', sans-serif;		
+	line-height: 1.3em;
+	font-size: 1.0em;
+	display: inline;
+}
+
+pre {
+	margin: 2px;
+	padding: 0px;
+	padding-left: 20px;
+}
+
+pre code {
 	color: #0f0;
-	background-color: black;
-	font: medium "Courier New", Courier, mono;
-	margin: 10px;
-	padding: 3px;
-	display: block;
+	background-color: #000;
 	float: none;
 	clear: none;
 	position: relative;
-	overflow: auto;
-	width: 40em;
+	width: 50em;
+	margin: 1px;
+	padding: 3px;
+	font: medium 'Ubuntu Mono', sans-serif;
+	display: block;
+	white-space: pre;
 }
 
 .strike {
@@ -180,15 +160,10 @@ code {
 	display: inline;
 }
 
-/* @end */
-
-/* @group Content Sections */
-
 #leftColumn {
 	width: 170px;
 	float: left;
 	overflow: auto;
-	margin: 10px 0 10px 0;
 	border-top-color: #ccc;
 	border-top-style: solid;
 	border-top-width: 1px;
@@ -201,6 +176,7 @@ code {
 	padding-right: 5px;
 	padding-left: 5px;
 	background-color: #F8F8F8;
+	margin: 10px 0;
 }
 
 #bodyColumn {
@@ -213,62 +189,53 @@ code {
 }
 
 .news_section {
-	padding: 6px;
 	background-color: #faf5f6;
-	margin: 2px;
 	display: block;
 	border: 1px dotted #c9beb3;
+	margin: 2px;
+	padding: 6px;
 }
 
 #footer {
-	padding: 3px 10px 3px 10px;
 	font-size: x-small;
-	padding: 10px;
-	margin: 10px 0px;
 	border-top: solid #ccc 1px;
-	color: #333333;
+	color: #333;
 	vertical-align: middle;
+	margin: 10px 0;
+	padding: 10px;
 }
 
-/* @end */
-
-/* @group Navigation Bar */
-
 #navcolumn {
-	padding: 8px 4px 0 8px;
 	background-color: #F8F8F8;
+	padding: 8px 4px 0 8px;
 }
 
 #navcolumn h5 {
 	font-size: smaller;
-	border-bottom: 1px solid #aaaaaa;
-	margin: 0;
-	padding: 2px 0 0 9px;
+	border-bottom: 1px solid #aaa;
 	color: #49635a;
 	background-image: url(./images/h5.jpg);
 	background-repeat: no-repeat;
 	background-position: left bottom;
+	margin: 0;
+	padding: 2px 0 0 9px;
 }
 
 #navcolumn ul a {
-	color: #333333;
-}
-
-#navcolumn ul a:hover {
-	color: #ff533c;
+	color: #333;
 }
 
 #navcolumn ul {
-	margin: 5px 0 15px -0em;
-	padding: 0;
 	font-size: small;
+	margin: 5px 0 15px;
+	padding: 0;
 }
 
 #navcolumn li {
 	list-style-type: none;
 	background-image: none;
 	background-repeat: no-repeat;
-	background-position: 0 0.4em;
+	background-position: 0 .4em;
 	padding-left: 16px;
 	list-style-position: outside;
 	line-height: 1.2em;
@@ -294,22 +261,16 @@ code {
 }
 
 .navSectionHead {
-	font-weight: bold;
+	font-weight: 700;
 	font-size: x-small;
 }
 
-/*
-
-@end */
-
-/* @group Links */
-
 #breadcrumbs {
-	font-size: x-small;
-	margin: 0pt;
+	font-size: 0.9em;
 	height: 13px;
 	background-image: url(./images/breadcrumbs.jpg);
-	padding: 5px 10px 14px 20px;
+	margin: 0;
+	padding: 1px 10px 14px 20px;
 }
 
 a {
@@ -324,41 +285,28 @@ a:visited {
 	color: #386591;
 }
 
-a:active, a:hover {
-	color: #ff533c;
-}
-
 .section p a:hover {
 	text-decoration: underline;
 }
 
-a.externalLink, a.externalLink:link, a.externalLink:visited, a.externalLink:active, a.externalLink:hover {
-
-
-}
-
-/* @end */
-
-/* @group Download Box */
-
 #downloadbox {
 	width: 170px;
 	float: right;
-	margin: 0 1em 2em 2em;
-	padding: 1em;
 	border: 1px solid #999;
 	background-color: #eee;
+	margin: 0 1em 2em 2em;
+	padding: 1em;
 }
 
 #downloadbox h5 {
-	margin: 0;
-	border-bottom: 1px solid #aaaaaa;
+	border-bottom: 1px solid #aaa;
 	font-size: smaller;
+	margin: 0;
 	padding: 0;
 }
 
 #downloadbox p {
-	margin-top: 0.4em;
+	margin-top: .4em;
 	margin-bottom: 0;
 }
 
@@ -368,7 +316,7 @@ a.externalLink, a.externalLink:link, a.externalLink:visited, a.externalLink:acti
 }
 
 #downloadbox ul {
-	margin-top: 0.4em;
+	margin-top: .4em;
 	margin-left: 0;
 	padding-left: 0;
 	margin-bottom: 0;
@@ -376,17 +324,24 @@ a.externalLink, a.externalLink:link, a.externalLink:visited, a.externalLink:acti
 }
 
 #downloadbox li {
-	font-size: 0.85em;
-	padding-bottom: 0.15em;
+	font-size: .85em;
+	padding-bottom: .15em;
 }
 
 #downloadbox li p {
-	font-size: 0.95em;
-	padding: 0.15em;
+	font-size: .95em;
 	border: 1px solid #999;
 	background-color: #ccc;
-	font-weight: bold;
+	font-weight: 700;
 	margin: 5px;
+	padding: .15em;
 }
 
-/* @end */
+#bannerLeft,.xleft {
+	float: left;
+	position: relative;
+}
+
+#navcolumn ul a:hover,a:active,a:hover {
+	color: #ff533c;
+}

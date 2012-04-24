@@ -133,6 +133,7 @@ code {
 	line-height: 1.3em;
 	font-size: 1.0em;
 	display: inline;
+	white-space: normal;
 }
 
 pre {

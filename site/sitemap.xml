@@ -8,62 +8,82 @@
 
 <url>
   <loc>http://rubytree.rubyforge.org/</loc>
-  <lastmod>2011-07-28T20:37:04+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2012-08-23T02:18:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://rubytree.rubyforge.org/rdoc/index.html</loc>
-  <lastmod>2011-07-28T20:37:04+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://rubytree.rubyforge.org/rdoc/Tree/BinaryTreeNode.html</loc>
-  <lastmod>2011-07-28T20:37:04+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://rubytree.rubyforge.org/rdoc/Tree/TreeNode.html</loc>
-  <lastmod>2011-07-28T20:37:04+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2012-08-23T02:18:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://rubytree.rubyforge.org/rdoc/</loc>
-  <lastmod>2011-07-28T20:37:04+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2012-08-23T02:18:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://rubytree.rubyforge.org/rdoc/_index.html</loc>
-  <lastmod>2011-07-28T20:37:04+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2012-08-23T02:18:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://rubytree.rubyforge.org/rdoc/.</loc>
-  <lastmod>2011-07-28T20:37:04+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2012-08-23T02:18:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://rubytree.rubyforge.org/rdoc/Tree.html</loc>
-  <lastmod>2011-07-28T20:37:04+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <loc>http://rubytree.rubyforge.org/rdoc/class_list.html</loc>
+  <lastmod>2012-08-23T02:18:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://rubytree.rubyforge.org/rdoc/Tree/.</loc>
-  <lastmod>2011-07-28T20:37:04+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <loc>http://rubytree.rubyforge.org/rdoc/method_list.html</loc>
+  <lastmod>2012-08-23T02:18:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://rubytree.rubyforge.org/rdoc/file_list.html</loc>
+  <lastmod>2012-08-23T02:18:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://rubytree.rubyforge.org/rdoc/Tree/TreeNode.html</loc>
+  <lastmod>2012-08-23T02:18:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://rubytree.rubyforge.org/rdoc/file.COPYING.html</loc>
-  <lastmod>2011-07-28T20:37:04+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2012-08-23T02:18:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://rubytree.rubyforge.org/rdoc/file.API-CHANGES.html</loc>
-  <lastmod>2011-07-28T20:37:04+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2012-08-23T02:18:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://rubytree.rubyforge.org/rdoc/file.History.html</loc>
-  <lastmod>2011-07-28T20:37:04+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2012-08-23T02:18:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://rubytree.rubyforge.org/rdoc/Tree/BinaryTreeNode.html</loc>
+  <lastmod>2012-08-23T02:18:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://rubytree.rubyforge.org/rdoc/Tree.html</loc>
+  <lastmod>2012-08-23T02:18:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://rubytree.rubyforge.org/rdoc/top-level-namespace.html</loc>
+  <lastmod>2012-08-23T02:18:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://rubytree.rubyforge.org/rdoc/Tree/.</loc>
+  <lastmod>2012-08-23T02:18:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 </urlset>

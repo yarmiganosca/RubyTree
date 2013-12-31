@@ -32,10 +32,10 @@ DIV#banner {
 }
 
 #bannerRight {
-	width: 200px;
+	/* width: 200px;*/
 	float: right;
 	border: none;
-	background-color: #eee;
+	/* background-color: #eee;*/
 	margin-top: 14px;
 	margin-right: 10px;
 	position: relative;

@@ -1,3 +1,8 @@
 /.yardoc/checksums
 /.yardoc/objects/root.dat
 /.yardoc/proxy_types
+gem_graph.png
+TAGS
+.bundle/
+.yardoc
+rdoc

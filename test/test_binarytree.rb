@@ -237,18 +237,28 @@ module TestTree
       @left_child2  = Tree::BinaryTreeNode.new("A Child at Left", "Child Node @ left")
       @right_child2 = Tree::BinaryTreeNode.new("B Child at Right", "Child Node @ right")
 
-      require 'structured_warnings'
+      @original_stderr = $stderr
+      $stderr = StringIO.new
 
       meth_names_for_test = %w{leftChild isLeftChild? rightChild isRightChild?}
 
       meth_names_for_test.each do |meth_name|
-        assert_warn(DeprecatedMethodWarning) {@root.send(meth_name)}
+        @root.send(meth_name)
+        $stderr.rewind
+        assert_match($stderr.string, /DEPRECATION WARNING/, "using #{meth_name} should cause a deprecation warning")
       end
 
-      assert_warn(DeprecatedMethodWarning) {@root.leftChild = @left_child2}
-      assert_warn(DeprecatedMethodWarning) {@root.rightChild = @right_child2}
+      @root.leftChild = @left_child2
+      $stderr.rewind
+      assert_match($stderr.string, /DEPRECATION WARNING/, "using leftChild should cause a deprecation warning")
+
+      @root.rightChild = @right_child2
+      $stderr.rewind
+      assert_match($stderr.string, /DEPRECATION WARNING/, "using rightChild should cause a deprecation warning")
+
       assert_raise(NoMethodError) {@root.to_snake_case("ABCD")} # Make sure the right method is visible
 
+      $stderr = @original_stderr
     end
 
   end

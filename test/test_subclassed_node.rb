@@ -55,13 +55,14 @@ module TestTree
       assert_equal("Hello", root.my_dummy_method)
 
       # We should get a warning as we are invoking the camelCase version of the dummy method.
-      assert_warn(DeprecatedMethodWarning) { root.send('MyDummyMethod') }
+      @original_stderr = $stderr
+      $stderr = StringIO.new
 
-      # Test if the structured_warnings can be disabled to call the CamelCa
-      DeprecatedMethodWarning.disable do
-        assert_equal("Hello", root.myDummyMethod)
-      end
+      root.send('MyDummyMethod')
+      $stderr.rewind
+      assert_match($stderr.string, /DEPRECATION WARNING/, "using a camelCase method should cause a deprecation warning")
 
+      $stderr = @original_stderr
     end
 
   end

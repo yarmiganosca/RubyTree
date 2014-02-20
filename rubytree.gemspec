@@ -65,7 +65,7 @@ Gem::Specification.new do |s|
                             'API-CHANGES.rdoc', 'History.rdoc']
   s.rdoc_options         = ["--title", "Rubytree Documentation", "--quiet"]
 
-  s.add_runtime_dependency 'json'                , '~> 1.8'
+  s.add_runtime_dependency 'json'                , '~> 1.7.6'
 
   s.add_development_dependency 'bundler'         , '~> 1.5'
   s.add_development_dependency 'rdoc'            , '~> 4.1'
